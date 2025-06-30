@@ -1,6 +1,7 @@
 package conditionals;
 
 public class ConditionalStatements {
+
   public static void main(String[] args) {
 
     // 1. if statement
@@ -47,5 +48,26 @@ public class ConditionalStatements {
     int speed = 80;
     String status = (speed > 60) ? "ternary: Over Speed" : "ternary: Safe Speed";
     System.out.println(status);
+
+    // 6. consise switch with yield
+
+    Scanner s = new Scanner(System.in);
+
+    System.out.println("Enter day: ");
+    int dayNumber = s.nextInt();
+
+    String dayName = switch (dayNumber) {
+      case 1, 7 -> "Weekend"; // consise
+      case 2, 3, 4, 5, 6 -> {
+        // we can use as block
+        yield "Weekday";
+      }
+      default -> "Invalid";
+
+    };
+
+    System.out.println("Day Name: " + dayName);
+
+    s.close();
   }
 }
