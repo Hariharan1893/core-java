@@ -1,0 +1,4 @@
+Learning Java file handling is fun and essential!
+Streams help read and write data efficiently.
+Buffered streams improve performance by reducing I/O operations.
+Practice makes perfect – keep coding!

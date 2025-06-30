@@ -1,0 +1,5 @@
+
+Data written using the buffer stream in java
+
+Data written using the buffer stream in java
+New line..
