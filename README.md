@@ -113,6 +113,36 @@ This repository provides a comprehensive collection of Java programs, organized 
 
 ---
 
+### 🧵 11. Multithreading and Concurrency in Java
+
+- `multithreading/threadandrunnable/ThreadDemoMain.java`: Demonstrates thread creation using both Thread class and Runnable interface.
+
+- `multithreading/threadlifecycle/ThreadLifecycleDemo.java`: Explains the different states in a thread's lifecycle: New, Runnable, Blocked, Waiting, Timed Waiting, and Terminated.
+
+- `multithreading/synchronizationdemo/SyncDemo.java`: Basic synchronization using synchronized methods and blocks.
+
+- `multithreading/volatilekeyword/VolatileDemo.java`: Shows how the volatile keyword ensures visibility of changes to variables across threads.
+
+- `multithreading/atomicvariable/AtomicVariableDemo.java`: Demonstrates atomic operations using AtomicInteger for thread-safe increments.
+
+- `multithreading/reentrantlock/ReentrantLockDemo.java`: Thread locking with ReentrantLock for greater control than synchronized.
+
+- `multithreading/conditioninterface/ConditionDemo.java`: Uses Condition with Lock to manage fine-grained thread communication.
+
+- `multithreading/readwritelock/ReadWriteLockDemo.java`: Demonstrates shared reading and exclusive writing using ReadWriteLock.
+
+- `multithreading/interthreadcommunication/ProducerConsumerDemo.java`: Classic Producer-Consumer problem solved using wait() and notify().
+
+- `multithreading/exchanger/ExchangerDemo.java`: Thread synchronization using Exchanger to swap data between threads.
+
+- `multithreading/semaphore/SemaphoreDemo.java`: Controls thread access using Semaphore permits.
+
+- `multithreading/executorframework/ExecutorFrameworkDemo.java`: Task submission and execution using the ExecutorService framework.
+
+- `multithreading/concurrenthashmap/ConcurrentHashMapDemo.java`: Safe concurrent access to a map using ConcurrentHashMap.
+
+---
+
 ## 🧠 Who This Repo Is For
 
 - Java Beginners and Students
