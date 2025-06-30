@@ -89,6 +89,8 @@ This repository provides a comprehensive collection of Java programs, organized 
 
 - `java8features/optionalclassdemo/OptionalClassDemo.java`: Avoiding `NullPointerException` using `Optional`.
 
+---
+
 ### 📂 10. File Handling
 
 - `filehandlingdemo/bytestreams/BytestreamsReadDemo.java`: Reading from files using FileInputStream.
